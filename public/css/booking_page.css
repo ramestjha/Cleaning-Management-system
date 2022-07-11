@@ -1,0 +1,79 @@
+body {
+  /* background-image: url(scloth.jpg); */
+  background-image: url(cloth.jpg);
+  background-size: cover;
+  width: 100%;
+}
+
+.navbar-nav-2 {
+  background-color: cadetblue;
+  width: 100%;
+  margin-bottom: 0.8px;
+}
+.navbar-nav-2 li {
+  /* text-decoration: none; */
+  list-style: none;
+  display: inline-block;
+  margin-top: 2%;
+  background-color: rgb(138, 232, 201);
+  margin-left: 200px;
+  padding: 5px;
+  padding-right: 20px;
+  border-radius: 50px;
+  font-family: "Times New Roman", Times, serif;
+}
+.mycontainer {
+  margin: auto;
+  background-color: aliceblue;
+  width: 550px;
+  padding: 2%;
+  margin-top: 1%;
+}
+.mytext {
+  margin-left: 10px;
+  padding-left: 40%;
+}
+.text12 {
+  width: 100%;
+  margin-top: 5%;
+}
+.address {
+  margin-left: 5%;
+}
+.submit {
+  margin: 2%;
+  background-color: gray;
+  margin-left: 15%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.reset {
+  margin: 2%;
+  background-color: gray;
+  margin-left: 15%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.container-fluid {
+  background-color: #000;
+  height: 300px;
+  margin-top: 2px;
+  color: #fff;
+}
+.col {
+  background-color: #000;
+  text-align: left;
+  margin-left: 1%;
+}
+.about {
+  text-align: left;
+}
+.icon {
+  margin-left: 17%;
+  display: inline-flex;
+}
+.row0 {
+  width: 100%;
+  background-color: #000;
+  /* height: 100px; */
+}

@@ -1,0 +1,30 @@
+.navbar-nav-2 {
+  background-color: cadetblue;
+  width: 100%;
+  margin-bottom: 0.8px;
+}
+.navbar-nav-2 li {
+  /* text-decoration: none; */
+  list-style: none;
+  display: inline-block;
+  margin-top: 2%;
+  background-color: rgb(138, 232, 201);
+  margin-left: 200px;
+  padding: 5px;
+  padding-right: 20px;
+  border-radius: 50px;
+  font-family: "Times New Roman", Times, serif;
+}
+.box {
+  width: 800px;
+  height: 400px;
+  background-color: cadetblue;
+  margin-left: 23%;
+  margin-top: 5%;
+}
+.tq {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  padding-top: 20%;
+}

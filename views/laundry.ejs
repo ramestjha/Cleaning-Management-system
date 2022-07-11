@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/laundry.css" />
+    <title>Home_page</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <p>Time : 8:00am To 5:00pm <br />Service: All days</p>
+        <a href="#" style="margin-right: 200px"> Email : rnjha339@gmail.com </a>
+
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <div class="icon0">
+              <a class="nav-link1" href="/mybooking">MyBooking</a>
+              <% if(loginButton == "Login"){ %>
+              <a class="nav-link1" href="/registration">Signup</a>
+              <% } %>
+              <a class="nav-link1" href="/login"><%-loginButton%></a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- second navbar  -->
+    <nav class="navbar-2 navbar-expand-lg">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav-2">
+          <li class="nav-item active">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/service">Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/pricing">Pricing</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/booklaundry">Book_laundry</a>
+          </li>
+          <a class="nav-link" href="#"
+            ><i class="fa-solid fa-cart-circle-plus"></i
+          ></a>
+        </ul>
+      </div>
+    </nav>
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/img/cloth.jpg" class="d-block w-100 h-100" />
+        </div>
+        <div class="carousel-item">
+          <img src="/img/iron.jpg" class="d-block w-100 h-100" />
+        </div>
+        <div class="carousel-item">
+          <img src="/img/scloth.jpg" class="d-block w-100 h-100" />
+        </div>
+      </div>
+    </div>
+    <div class="how-it-works">
+      <h2>How laundry Works</h2>
+      <p>washing cloths was never so conveninant</p>
+    </div>
+    <div class="fig">
+      <img src="/img/laundry-basket.png" class="bas" />
+      <figcaption class="figure-caption text-right">
+        <p style="margin-right: 35.5px">Step1</p>
+        up all your dirty cloth
+      </figcaption>
+    </div>
+    <div class="fig">
+      <img src="/img/vihcle.jpg" class="bas" />
+      <figcaption class="figure-caption text-right">
+        <p style="margin-right: 55px">Step2</p>
+        We pick up your clothes
+      </figcaption>
+    </div>
+    <div class="fig">
+      <img src="/img/machine.png" class="bas" />
+      <figcaption class="figure-caption text-right">
+        <p style="margin-right: 55px">Step3</p>
+        We clesn your cloths
+      </figcaption>
+    </div>
+    <div class="fig">
+      <img src="/img/cloth.png" class="bas" />
+      <figcaption class="figure-caption text-right">
+        <p style="margin-right: 55px">Step4</p>
+        We deliver clean, folded clothes
+      </figcaption>
+    </div>
+    
+    <div class="box-container">
+      <p
+        style="
+          color: white;
+          text-align: center;
+          font-size: large;
+          padding-top: 2%;
+        "
+      >
+        Why choose us
+      </p>
+      <div class="box-bac">
+        <div class="box">
+          <p class="box-t">Persionalized Experience</p>
+          <div class="line-1"></div>
+          <p style="margin-top: 5%">
+            we take atmost care of your cloths, segregating based on the cloth
+            type and giving you instant cloth to make a statement.
+          </p>
+        </div>
+        <div class="box">
+          <p class="box-t">Good quality</p>
+          <div class="line-1"></div>
+          <p style="margin-top: 5%">
+            We carefully check every cleaning items in such step to ensure we do
+            job we redo all the unqualified job we did without extra charge.
+          </p>
+        </div>
+        <div class="box">
+          <p class="box-t">Affordable pricing</p>
+          <div class="line-1"></div>
+          <p style="margin-top: 5%">
+            price that suits your pocket our services should be packet friendly
+            wothout compromisisng on best customer.
+          </p>
+        </div>
+      </div>
+      <div class="box-bac2">
+        <div class="box">
+          <p class="box-t">Friendly services</p>
+          <div class="line-1"></div>
+          <p style="margin-top: 5%">
+            just like chatting with your friends while you are having services
+            in our store don't you think it is relaxed and comfortable
+          </p>
+        </div>
+        <div class="box">
+          <p class="box-t">On time service</p>
+          <div class="line-1"></div>
+          <p style="margin-top: 5%">
+            Peak season or lean season,we assure you of on time delvery at all
+            times as per the date commited.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col about">
+          About_us<br />
+          Manage multiple stores using a single platform with all metrics in one place
+          A perfect laundry management software to manage your stores,factory, and customers, 
+          giving you better control and clarity manage everything effectively easily quickely.
+          we make a web application beause customer easily book laundry thorugh our web application.
+          this is one best solution for all laundry works like house cleaing and cloths cleaning.
+          visit our website and enjoy our sersvices.Thanque.    
+        </div>
+        <div class="col">
+          Our_services<br />
+          <ul
+            service_list
+            style="color: #fff; list-style: none; margin-top: 1%"
+          >
+            <li>Dry_cleaning</li>
+            <li>Carpet_cleaning</li>
+            <li>mattress_cleaning</li>
+            <li>Sofa_cleaning</li>
+            <li>House_cleaning</li>
+            <li>Home_dusting</li>
+            <li>Steam_ironing</li>
+            <li>Shou_laundry</li>
+            <li>Wash & Fold</li>
+            <li>Ironing</li>
+            <li></li>
+          </ul>
+        </div>
+        <div class="col">
+          Contact_us
+          <br />
+          mob:<br />
+          7632966717<br />
+          mail:<br />
+          rnjha339@gmial.com<br />
+          visit also:<br />
+          www.cleaning.com<br />
+          Open & Close Time<br/>
+          09:00 - 21:00<br/>
+          Monday To Saturday
+        </div>
+        <div class="row0">
+          <p
+            style="
+              color: #fff;
+              text-align: center;
+              font-family: 'Times New Roman', Times, serif;
+              font-size: large;
+              background-color: darkblue;
+            "
+          >
+            Also Visit Here
+          </p>
+          <div class="icon">
+            <img src="/img/facebook.png" />
+          </div>
+          <div class="icon">
+            <img src="/img/instagram.png" />
+          </div>
+          <div class="icon">
+            <img src="/img/linkedin.png" />
+          </div>
+          <div class="icon">
+            <img src="/img/google.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+ <div class="circle">
+        <figure class="figure">
+          <img src="/img/hanmob.jpg" class="circle" />
+          <figcaption class="figure-caption text-right">
+            Visit Our Website
+          </figcaption>
+        </figure>
+      </div>
+      <div class="circle">
+        <figure class="figure">
+          <img src="/img/mayank.png" class="circle" />
+          <figcaption class="figure-caption text-right">founder: mayank jha</figcaption>
+        </figure>
+      </div>
+    </div>
+    
+      
+    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

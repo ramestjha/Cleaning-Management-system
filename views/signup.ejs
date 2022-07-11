@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup_page</title>
+    <link rel="stylesheet" href="/css/signup.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    
+    <nav class="navbar-2 navbar-expand-lg">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav-2">
+          <li class="nav-item active">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/service">Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/pricing">Pricing</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/booklaundry">Book_laundry</a>
+          </li>
+          <a class="nav-link" href="#"
+            ><i class="fa-solid fa-cart-circle-plus"></i
+          ></a>
+        </ul>
+      </div>
+    </nav>
+    <div class="container-fluid">
+      <div class="main-box">
+          <div class="box-in">
+            <form method="post" action="/login">
+              <div class="form-group  ">
+                <label for="firstname"></label>
+                <input
+                  type="text"
+                  class="form-control myform"
+                  id="fname"
+                  name="fname"
+                  placeholder="First_name"
+                />
+              </div>
+              <div class="form-group ">
+                <label for="Lastname"></label>
+                <input
+                  type="text"
+                  class="form-control myform"
+                  id="lname"
+                  name="lname"
+                  placeholder="Last_name"
+                />
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1"></label>
+                <input
+                  type="email"
+                  class="form-control myform"
+                  id="email"
+                  name="email"
+                  aria-describedby="emailHelp"
+                  placeholder="E-mail"
+                />
+              </div>
+              <div class="form-group">
+                <label for="name"></label>
+                <input
+                  type="text"
+                  class="form-control myform"
+                  id="mob"
+                  name="mob"
+                  placeholder="Mob_no"
+                />
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1"></label>
+                <input
+                  type="password"
+                  class="form-control myform"
+                  id="npassword"
+                  name="npassword"
+                  placeholder="New_Password"
+                />
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1"></label>
+                <input
+                  type="password"
+                  class="form-control myform"
+                  id="password"
+                  name="password"
+                  placeholder="Password"
+                />
+              <button type="submit" class="btn btn-primary" style="margin-left:10%; margin-top:2%;">Submit</button>
+              <button type="submit" class="btn btn-primary" style="margin-left:20%; margin-top:2%;">Reset</button>
+            </form>
+          </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col about">
+            About_us<br />
+            Manage multiple stores using a single platform with all metrics in
+            one place A perfect laundry management software to manage your
+            stores, factory, and customers, giving you better control and
+            clarity manage everything effectively easily quickely. we make a web
+            application beause customer easily book laundry thorugh our web
+            application. this is one best solution for all laundry works like
+            house cleaing and cloths cleaning. visit our website and enjoy our
+            sersvices.Thanque.
+          </div>
+          <div class="col">
+            Our_services<br />
+            <ul
+              service_list
+              style="color: #fff; list-style: none; margin-top: 1%"
+            >
+              <li>Dry_cleaning</li>
+              <li>Carpet_cleaning</li>
+              <li>mattress_cleaning</li>
+              <li>Sofa_cleaning</li>
+              <li>House_cleaning</li>
+              <li>Home_dusting</li>
+              <li>Steam_ironing</li>
+              <li>Shou_laundry</li>
+              <li>Wash & Fold</li>
+              <li>Ironing</li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="col">
+            Contact_us
+            <br />
+            mob:<br />
+            7632966717<br />
+            mail:<br />
+            rnjha339@gmial.com<br />
+            visit also:<br />
+            www.cleaning.com<br />
+            Open & Close Time<br />
+            09:00 - 21:00<br />
+            Monday To Saturday
+          </div>
+          <div class="row0">
+            <p
+              style="
+                color: #fff;
+                text-align: center;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: large;
+                background-color: darkblue;
+              "
+            >
+              Also Visit Here
+            </p>
+            <div class="icon">
+              <img src="/img/facebook.png" />
+            </div>
+            <div class="icon">
+              <img src="/img/instagram.png" />
+            </div>
+            <div class="icon">
+              <img src="/img/linkedin.png" />
+            </div>
+            <div class="icon">
+              <img src="/img/google.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
